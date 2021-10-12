@@ -1,7 +1,7 @@
 package fr.dauphine.javaavance.td2;
 
 public class Add extends Expr {
-	private double x;
+	private final double x;
 	
 	public Add() {
 		this.x=0.0;
